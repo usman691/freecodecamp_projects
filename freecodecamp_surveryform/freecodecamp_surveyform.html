@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survery form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="goat-guy-img">
+        <img src="goat guy.jpg" alt="homles">
+    </div>
+
+    <div id="form-container">
+        <h1 id="title">Survey form</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus earum unde
+            repudiandae </p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name: <input required type="text" id="name"
+                    placeholder="Enter your name"></label>
+            <label id="email-label" for="email">Email: <input required type="email" id="email"
+                    placeholder="Enter your name"></label>
+            <label id="number-label" for="age">Age: <input required min="0" max="100" type="number" id="number"
+                    placeholder="Enter your age"></label>
+
+
+            <div id="dorpdown">
+                <legend>Are you dumb:
+                    <select required id="dropdown">
+                        <option>(choose an option)</option>
+                        <option>Yes</option>
+                        <option>YESSSSSS</option>
+                    </select>
+                </legend>
+            </div>
+
+            <div id="radio-check-buttons">
+                <legend>Do you want to become less stupid?</legend>
+                <label id="for-si">Si<input checked type="radio" value="lanat" name="for-si-ne" id="si"></label>
+                <label id="for-ne">Ne<input type="radio" value="lanat" name="for-si-ne" id="ne"></label>
+
+                <legend>Do you seriously want to become less stupid?</legend>
+                <label>Han<input checked type="checkbox" id="han" value="for-han-han"></label>
+                <label>Double Han<input type="checkbox" id="hanhan" value="for-han-han"></label>
+            </div>
+
+            <div id="text-area">
+                <legend>Koi masla?</legend>
+                <textarea name="problem" maxlength="120" id="masla" rows="8" cols="50"
+                    placeholder="Kya masla teko be"></textarea>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

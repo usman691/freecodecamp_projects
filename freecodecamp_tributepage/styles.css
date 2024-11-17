@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+
+#nav{
+    background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkorchid;  
+}
+
+#nav-title{ 
+    text-align: center;
+    margin: auto;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#nav-buttons{
+    font-weight: 500;   
+}
+
+#img-div{
+   
+    border: 10px solid;
+    background-color: beige;
+    padding-top: 20px;
+}
+    
+#image{    
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid;
+    margin: auto;
+    max-width:100%;
+    display:block;
+}
+
+#description{
+    background-color: beige;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkorchid;
+}
+
+#description p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;       
+}
+
+#tribute-info{
+    background-color: beige;
+}
+
+#img-caption{
+    color:white;
+}
