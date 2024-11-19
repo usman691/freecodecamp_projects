@@ -135,12 +135,17 @@ img{
     width: 40%;
     justify-content: space-evenly;
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.contact-icons ul li{
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 .contact-icons ul li:hover{
-    padding-top: 10px;
-    transition:  0.3s ease-out;
+    transform: translateY(10px);
 }
 
 .contact-icons ul li a{
